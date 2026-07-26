@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CompareZ</title>
+  <desc id="desc">Compare prices. Keep the difference.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf5"/>
+      <stop offset="1" stop-color="#eef8f2"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a5d46"/>
+      <stop offset="1" stop-color="#188c66"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#173b30" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="112" cy="520" r="190" fill="#dff1e8" opacity=".7"/>
+  <circle cx="1080" cy="92" r="235" fill="#e7f4ec" opacity=".85"/>
+  <g transform="translate(76 73)">
+    <text x="0" y="74" fill="#101b17" font-family="Georgia, serif" font-size="76" font-weight="700">CompareZ</text>
+    <text x="3" y="139" fill="#59645f" font-family="Arial, sans-serif" font-size="25" letter-spacing="2">SMART GROCERY COMPARISON</text>
+    <text x="0" y="248" fill="#0a5d46" font-family="Georgia, serif" font-size="58" font-weight="700">Compare prices.</text>
+    <text x="0" y="315" fill="#101b17" font-family="Georgia, serif" font-size="58" font-weight="700">Keep the difference.</text>
+    <text x="2" y="380" fill="#58635e" font-family="Arial, sans-serif" font-size="27">Search once. Understand quantity. Choose where to buy.</text>
+    <g transform="translate(0 430)">
+      <rect width="275" height="74" rx="37" fill="url(#green)"/>
+      <text x="34" y="47" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Available on Android</text>
+    </g>
+  </g>
+  <g transform="translate(784 98)" filter="url(#shadow)">
+    <rect width="330" height="444" rx="46" fill="#fff" stroke="#dce5e0" stroke-width="2"/>
+    <text x="32" y="49" fill="#68736e" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">EGGS · 12 PACK</text>
+    <g transform="translate(24 83)">
+      <rect width="282" height="98" rx="24" fill="#0a5d46"/>
+      <circle cx="37" cy="34" r="13" fill="#dff1e8"/>
+      <text x="64" y="39" fill="#dff1e8" font-family="Arial, sans-serif" font-size="17" font-weight="700">BEST VALUE</text>
+      <text x="24" y="77" fill="#fff" font-family="Georgia, serif" font-size="35" font-weight="700">₹62</text>
+      <text x="119" y="75" fill="#fff" font-family="Arial, sans-serif" font-size="19">₹5.17 / item</text>
+    </g>
+    <g transform="translate(24 199)">
+      <rect width="282" height="78" rx="22" fill="#f3f5f3"/>
+      <text x="24" y="48" fill="#14201b" font-family="Arial, sans-serif" font-size="25" font-weight="700">₹68</text>
+      <text x="111" y="47" fill="#68736e" font-family="Arial, sans-serif" font-size="18">₹5.67 / item</text>
+    </g>
+    <g transform="translate(24 295)">
+      <rect width="282" height="78" rx="22" fill="#f3f5f3"/>
+      <text x="24" y="48" fill="#14201b" font-family="Arial, sans-serif" font-size="25" font-weight="700">₹74</text>
+      <text x="111" y="47" fill="#68736e" font-family="Arial, sans-serif" font-size="18">₹6.17 / item</text>
+    </g>
+    <rect x="24" y="396" width="196" height="24" rx="12" fill="#e6f3ed"/>
+    <rect x="232" y="396" width="74" height="24" rx="12" fill="#d3eadf"/>
+  </g>
+</svg>
